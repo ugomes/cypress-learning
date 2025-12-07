@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npm run clean && cypress run || node inserir-grafico.js || true",
-    "clean": "if exist cypress\\reports (rmdir /s /q cypress\\reports) & mkdir cypress\\reports"
+    "clean": "node -e \"const fs = require('fs'); if (fs.existsSync('cypress/reports')) fs.rmSync('cypress/reports', {recursive: true, force: true}); fs.mkdirSync('cypress/reports', {recursive: true});\""
   },
   "keywords": [],
   "author": "",
