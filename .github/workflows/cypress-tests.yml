@@ -31,10 +31,6 @@ jobs:
         run: npm test
         continue-on-error: true
 
-      - name: Generate graph on report
-        run: node inserir-grafico.js
-        continue-on-error: true
-
       - name: Upload test report
         if: always()
         uses: actions/upload-artifact@v4
