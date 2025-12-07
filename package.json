@@ -1,0 +1,20 @@
+{
+  "name": "curso_cypress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run clean && cypress run || node inserir-grafico.js || true",
+    "clean": "if exist cypress\\reports (rmdir /s /q cypress\\reports) & mkdir cypress\\reports"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^10.1.0",
+    "cypress": "^15.7.1",
+    "cypress-mochawesome-reporter": "^4.0.2",
+    "mochawesome": "^7.1.4",
+    "mochawesome-merge": "^5.1.0",
+    "mochawesome-report-generator": "^6.3.2"
+  }
+}

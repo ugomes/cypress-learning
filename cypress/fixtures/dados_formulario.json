@@ -1,0 +1,24 @@
+[
+    {
+        "nome": "João Silva",
+        "email": "Ox8gF@example.com",
+        "telefone": "11 91234-5678",
+        "mensagem": "Isso é um teste de envio de formulário usando o forEach",
+        "assunto": "outros"
+    },
+    {
+        "nome": "Maria Oliveira",
+        "email": "Ox8gF@example.com",
+        "telefone": "11 91234-5678",
+        "mensagem": "Isso é um teste de envio de formulário usando o forEach",
+        "assunto": "Dúvida"
+    },
+    {
+        "nome": "Carlos Pereira",
+        "email": "Ox8gF@example.com",
+        "telefone": "11 91234-5678",
+        "mensagem": "Isso é um teste de envio de formulário usando o forEach",
+        "assunto": "Sugestão"
+    }
+
+]
