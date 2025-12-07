@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "npm run clean && cypress run || node inserir-grafico.js || true",
-    "clean": "node -e \"const fs = require('fs'); if (fs.existsSync('cypress/reports')) fs.rmSync('cypress/reports', {recursive: true, force: true}); fs.mkdirSync('cypress/reports', {recursive: true});\""
+    "test": "cypress run && node inserir-grafico.js"
   },
   "keywords": [],
   "author": "",
