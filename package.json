@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run && node inserir-grafico.js"
+    "test": "cypress run; node inserir-grafico.js"
   },
   "keywords": [],
   "author": "",
